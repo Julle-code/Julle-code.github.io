@@ -5,41 +5,42 @@ body {
 }
 
 h1 {
-    color: lightskyblue;
+    color: navy;
     font-size: 36px;
     text-align: center;
-    text-shadow: 1px 1px 2px lightcyan;
+    text-shadow: 1px 1px 2px lightskyblue;
 }
 
 h2 {
-    color: lightskyblue;
+    color: navy;
     font-size: 22px;
-    border-bottom: 3px solid lightskyblue;
+    border-bottom: 3px solid navy;
     padding-bottom: 5px;
 }
 
 h3 {
-    color: lightskyblue;
+    color: navy;
     font-size: 18px;
 }
 
 img {
     width: 250px;
-    border: 5px dotted lightskyblue;
+    box-shadow: 0px 0px 8px navy;
     border-radius: 15px;
     display:block;
     margin: 0 auto;
 }
 
 .links {
-    background-color: lightcyan;
+    background-color: navy;
     padding: 15px;
     margin: 15px;
     border-radius: 20px;
+    text-align: center;
 }
 
 a {
-    color: cyan;
+    color: lightcyan;
     font-size: 18px;
     margin-right: 15px;
     text-decoration: none;
@@ -54,7 +55,7 @@ a:hover {
 
 ul {
     background-color: white;
-    border: 2px solid lightskyblue;
+    border: 2px solid navy;
     padding: 10px;
     border-radius: 10px;
 }
@@ -67,18 +68,17 @@ li {
 
   hr {
     height: 3px;
-    background-color: lightskyblue;
+    background-color: navy;
     border: none;
   }
 
   p {
     font-size: 16px;
-    color: dimgray;
     line-height: 1.5;
   }
 
   .footer {
-    background-color: lightskyblue;
+    background-color: navy;
     color: white;
     text-align: center;
     padding: 15px;
